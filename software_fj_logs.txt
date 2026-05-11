@@ -1,0 +1,302 @@
+2026-05-09 21:03:14 - INFO - Cliente creado: Valentina Torres (C001)
+2026-05-09 21:04:28 - INFO - Cliente creado: Sebastián Ramírez (C002)
+2026-05-09 21:05:51 - ERROR - Error al crear cliente Juan Pérez: Email inválido: 'juan.perez.com'. Debe contener '@' y '.'
+2026-05-09 21:06:17 - INFO - Cliente creado: Mariana Ospina (C003)
+2026-05-09 21:08:03 - INFO - Reserva R001: Valentina Torres / Sala Innovación / 2.0h / $100,000
+2026-05-09 21:08:44 - INFO - Reserva R001 confirmada.
+2026-05-09 21:11:22 - INFO - Pago OK R001. Costo: $100,000 | Cambio: $50,000
+2026-05-09 21:11:22 - INFO - Procesamiento de pago finalizado: R001
+2026-05-09 21:14:39 - INFO - Reserva R002: Sebastián Ramírez / Laptop HP ProBook / 8.0h / $175,000
+2026-05-09 21:15:07 - INFO - Reserva R002 confirmada.
+2026-05-09 21:17:53 - INFO - Pago OK R002. Costo: $175,000 | Cambio: $25,000
+2026-05-09 21:17:53 - INFO - Procesamiento de pago finalizado: R002
+2026-05-09 21:19:38 - ERROR - Error reserva R003: Máximo 8h para asesoría. Solicitado: 10.0h
+2026-05-09 21:22:04 - INFO - Reserva R003: Mariana Ospina / Asesoría en IA / 5.0h / $520,000
+2026-05-09 21:22:51 - INFO - Reserva R003 confirmada.
+2026-05-09 21:26:17 - ERROR - Error pago R003: Monto insuficiente. Requerido: $520,000, Recibido: $400,000
+2026-05-09 21:26:17 - INFO - Procesamiento de pago finalizado: R003
+2026-05-09 21:28:04 - WARNING - Reserva R003 cancelada.
+2026-05-09 21:31:42 - INFO - Cliente creado: Felipe Mendoza (C004)
+2026-05-09 21:33:18 - INFO - Reserva R004: Felipe Mendoza / Sala Conferencias / 4.0h / $320,000
+2026-05-09 21:34:02 - INFO - Reserva R004 confirmada.
+2026-05-09 21:37:55 - INFO - Pago OK R004. Costo: $320,000 | Cambio: $80,000
+2026-05-09 21:37:55 - INFO - Procesamiento de pago finalizado: R004
+2026-05-09 21:42:30 - ERROR - Error al crear cliente Test Admin: Teléfono inválido: '12345'. Mínimo 7 dígitos.
+2026-05-09 21:44:11 - INFO - Cliente creado: Daniela Herrera (C005)
+2026-05-09 21:47:29 - INFO - Reserva R005: Daniela Herrera / Proyector Epson / 6.0h / $105,000
+2026-05-09 21:48:03 - INFO - Reserva R005 confirmada.
+2026-05-09 21:53:41 - INFO - Pago OK R005. Costo: $105,000 | Cambio: $45,000
+2026-05-09 21:53:41 - INFO - Procesamiento de pago finalizado: R005
+2026-05-09 22:01:17 - WARNING - Cliente desactivado: Felipe Mendoza
+2026-05-09 22:02:08 - ERROR - Error reserva R006: Cliente Felipe Mendoza está inactivo.
+2026-05-09 22:06:53 - INFO - Cliente creado: Andrés Castillo (C006)
+2026-05-09 22:09:22 - INFO - Reserva R006: Andrés Castillo / Asesoría Ciberseguridad / 3.0h / $351,000
+2026-05-09 22:10:04 - INFO - Reserva R006 confirmada.
+2026-05-09 22:15:48 - INFO - Pago OK R006. Costo: $351,000 | Cambio: $149,000
+2026-05-09 22:15:48 - INFO - Procesamiento de pago finalizado: R006
+2026-05-09 22:19:33 - ERROR - Error cancelar R005: No se puede cancelar una reserva completada.
+2026-05-09 22:23:07 - INFO - Reserva R007: Valentina Torres / Sala Innovación / 1.0h / $50,000
+2026-05-09 22:23:58 - WARNING - Reserva R007 cancelada.
+2026-05-09 22:31:14 - INFO - Cliente creado: Ana García (C901)
+2026-05-09 22:31:14 - INFO - Cliente creado: Carlos López (C902)
+2026-05-09 22:31:14 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-09 22:31:14 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-09 22:31:14 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-09 22:31:14 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-09 22:31:14 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-09 22:31:14 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-09 22:31:15 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-09 22:31:15 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-09 22:31:15 - INFO - Reserva R900 confirmada.
+2026-05-09 22:31:15 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-09 22:31:15 - INFO - Procesamiento de pago finalizado: R900
+2026-05-09 22:31:15 - INFO - Reserva R901 confirmada.
+2026-05-09 22:31:15 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-09 22:31:15 - INFO - Procesamiento de pago finalizado: R901
+2026-05-09 22:31:15 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-09 22:31:15 - WARNING - Reserva R901 cancelada.
+2026-05-09 22:31:15 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-09 22:31:15 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-09 22:31:15 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-09 22:48:37 - INFO - Reserva R008: Andrés Castillo / Sala Conferencias / 2.0h / $160,000
+2026-05-09 22:49:11 - INFO - Reserva R008 confirmada.
+2026-05-09 22:53:02 - INFO - Pago OK R008. Costo: $160,000 | Cambio: $40,000
+2026-05-09 22:53:02 - INFO - Procesamiento de pago finalizado: R008
+2026-05-09 23:01:44 - ERROR - Error al crear cliente : El nombre debe ser una cadena no vacía.
+2026-05-09 23:08:19 - INFO - Cliente creado: Natalia Jiménez (C007)
+2026-05-09 23:10:58 - INFO - Reserva R009: Natalia Jiménez / Asesoría en IA / 2.0h / $208,000
+2026-05-09 23:11:22 - INFO - Reserva R009 confirmada.
+2026-05-09 23:17:43 - INFO - Pago OK R009. Costo: $208,000 | Cambio: $42,000
+2026-05-09 23:17:43 - INFO - Procesamiento de pago finalizado: R009
+2026-05-10 09:38:12 - INFO - Cliente creado: Luisa Fernanda Gómez (C001)
+2026-05-10 09:39:44 - INFO - Cliente creado: Ricardo Vargas (C002)
+2026-05-10 09:41:07 - ERROR - Error al crear cliente admin: Email inválido: 'admin'. Debe contener '@' y '.'
+2026-05-10 09:43:52 - INFO - Reserva R001: Luisa Fernanda Gómez / Sala Conferencias / 6.0h / $480,000
+2026-05-10 09:44:21 - INFO - Reserva R001 confirmada.
+2026-05-10 09:51:03 - INFO - Pago OK R001. Costo: $571,200 | Cambio: $28,800
+2026-05-10 09:51:03 - INFO - Procesamiento de pago finalizado: R001
+2026-05-10 09:55:38 - INFO - Cliente creado: Natalia Jiménez (C003)
+2026-05-10 09:57:14 - INFO - Reserva R002: Ricardo Vargas / Laptop HP ProBook / 24.0h / $495,000
+2026-05-10 09:58:02 - INFO - Reserva R002 confirmada.
+2026-05-10 10:04:29 - ERROR - Error pago R002: Monto insuficiente. Requerido: $495,000, Recibido: $300,000
+2026-05-10 10:04:29 - INFO - Procesamiento de pago finalizado: R002
+2026-05-10 10:09:11 - INFO - Pago OK R002. Costo: $495,000 | Cambio: $5,000
+2026-05-10 10:09:11 - INFO - Procesamiento de pago finalizado: R002
+2026-05-10 10:14:55 - INFO - Reserva R003: Natalia Jiménez / Proyector Epson / 3.0h / $60,000
+2026-05-10 10:15:22 - INFO - Reserva R003 confirmada.
+2026-05-10 10:18:04 - INFO - Pago OK R003. Costo: $60,000 | Cambio: $40,000
+2026-05-10 10:18:04 - INFO - Procesamiento de pago finalizado: R003
+2026-05-10 10:35:47 - ERROR - Error al crear cliente Prueba Sin Teléfono: Teléfono inválido: 'abcdef1'. Mínimo 7 dígitos.
+2026-05-10 10:38:31 - INFO - Cliente creado: Camilo Restrepo (C004)
+2026-05-10 10:41:09 - INFO - Reserva R004: Camilo Restrepo / Asesoría en IA / 4.0h / $416,000
+2026-05-10 10:41:58 - INFO - Reserva R004 confirmada.
+2026-05-10 10:47:22 - INFO - Pago OK R004. Costo: $495,040 | Cambio: $4,960
+2026-05-10 10:47:22 - INFO - Procesamiento de pago finalizado: R004
+2026-05-10 11:02:33 - INFO - Cliente creado: Ana García (C901)
+2026-05-10 11:02:33 - INFO - Cliente creado: Carlos López (C902)
+2026-05-10 11:02:33 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 11:02:33 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 11:02:33 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 11:02:33 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 11:02:33 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-10 11:02:33 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-10 11:02:34 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 11:02:34 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 11:02:34 - INFO - Reserva R900 confirmada.
+2026-05-10 11:02:34 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-10 11:02:34 - INFO - Procesamiento de pago finalizado: R900
+2026-05-10 11:02:34 - INFO - Reserva R901 confirmada.
+2026-05-10 11:02:34 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 11:02:34 - INFO - Procesamiento de pago finalizado: R901
+2026-05-10 11:02:34 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 11:02:34 - WARNING - Reserva R901 cancelada.
+2026-05-10 11:02:34 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-10 11:02:34 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-10 11:02:34 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-10 14:08:17 - INFO - Cliente creado: Patricia Morales (C005)
+2026-05-10 14:09:44 - INFO - Cliente creado: Esteban Guerrero (C006)
+2026-05-10 14:12:03 - INFO - Reserva R005: Patricia Morales / Sala Innovación / 5.0h / $250,000
+2026-05-10 14:12:51 - INFO - Reserva R005 confirmada.
+2026-05-10 14:17:38 - INFO - Pago OK R005. Costo: $250,000 | Cambio: $50,000
+2026-05-10 14:17:38 - INFO - Procesamiento de pago finalizado: R005
+2026-05-10 14:21:09 - ERROR - Error reserva R006: Máximo 72h para equipo. Solicitado: 80.0h
+2026-05-10 14:33:52 - INFO - Reserva R006: Esteban Guerrero / Laptop HP ProBook / 16.0h / $335,000
+2026-05-10 14:34:27 - INFO - Reserva R006 confirmada.
+2026-05-10 14:41:14 - INFO - Pago OK R006. Costo: $335,000 | Cambio: $65,000
+2026-05-10 14:41:14 - INFO - Procesamiento de pago finalizado: R006
+2026-05-10 14:48:02 - WARNING - Cliente desactivado: Ricardo Vargas
+2026-05-10 14:48:55 - ERROR - Error reserva R007: Cliente Ricardo Vargas está inactivo.
+2026-05-10 14:52:31 - INFO - Reserva R007: Camilo Restrepo / Asesoría Ciberseguridad / 2.0h / $234,000
+2026-05-10 14:53:06 - INFO - Reserva R007 confirmada.
+2026-05-10 14:58:44 - INFO - Pago OK R007. Costo: $278,460 | Cambio: $21,540
+2026-05-10 14:58:44 - INFO - Procesamiento de pago finalizado: R007
+2026-05-10 15:14:07 - INFO - Cliente creado: Ana García (C901)
+2026-05-10 15:14:07 - INFO - Cliente creado: Carlos López (C902)
+2026-05-10 15:14:07 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 15:14:07 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 15:14:07 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 15:14:07 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 15:14:08 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-10 15:14:08 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-10 15:14:08 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 15:14:08 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 15:14:08 - INFO - Reserva R900 confirmada.
+2026-05-10 15:14:08 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-10 15:14:08 - INFO - Procesamiento de pago finalizado: R900
+2026-05-10 15:14:08 - INFO - Reserva R901 confirmada.
+2026-05-10 15:14:08 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 15:14:08 - INFO - Procesamiento de pago finalizado: R901
+2026-05-10 15:14:08 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 15:14:08 - WARNING - Reserva R901 cancelada.
+2026-05-10 15:14:08 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-10 15:14:08 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-10 15:14:08 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-10 15:47:29 - ERROR - Error cancelar R007: La reserva ya está cancelada.
+2026-05-10 19:22:41 - INFO - Cliente creado: Juliana Parra (C007)
+2026-05-10 19:24:18 - INFO - Cliente creado: Mauricio León (C008)
+2026-05-10 19:27:05 - ERROR - Error al crear cliente x: El nombre debe ser una cadena no vacía.
+2026-05-10 19:31:53 - INFO - Reserva R008: Juliana Parra / Sala Conferencias / 3.0h / $240,000
+2026-05-10 19:32:22 - INFO - Reserva R008 confirmada.
+2026-05-10 19:38:09 - INFO - Pago OK R008. Costo: $240,000 | Cambio: $60,000
+2026-05-10 19:38:09 - INFO - Procesamiento de pago finalizado: R008
+2026-05-10 19:51:44 - INFO - Reserva R009: Mauricio León / Proyector Epson / 4.0h / $75,000
+2026-05-10 19:52:18 - INFO - Reserva R009 confirmada.
+2026-05-10 19:58:37 - INFO - Pago OK R009. Costo: $75,000 | Cambio: $25,000
+2026-05-10 19:58:37 - INFO - Procesamiento de pago finalizado: R009
+2026-05-10 20:04:12 - ERROR - Error reserva R010: Duración inválida: 0.
+2026-05-10 20:17:55 - INFO - Cliente creado: Ana García (C901)
+2026-05-10 20:17:55 - INFO - Cliente creado: Carlos López (C902)
+2026-05-10 20:17:55 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 20:17:55 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-10 20:17:55 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 20:17:55 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-10 20:17:56 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-10 20:17:56 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-10 20:17:56 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 20:17:56 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-10 20:17:56 - INFO - Reserva R900 confirmada.
+2026-05-10 20:17:56 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-10 20:17:56 - INFO - Procesamiento de pago finalizado: R900
+2026-05-10 20:17:56 - INFO - Reserva R901 confirmada.
+2026-05-10 20:17:56 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 20:17:56 - INFO - Procesamiento de pago finalizado: R901
+2026-05-10 20:17:56 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-10 20:17:56 - WARNING - Reserva R901 cancelada.
+2026-05-10 20:17:56 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-10 20:17:56 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-10 20:17:56 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-10 20:44:03 - ERROR - Error al crear cliente 12345: El nombre debe ser una cadena no vacía.
+2026-05-10 20:51:28 - INFO - Cliente creado: Sofía Bermúdez (C009)
+2026-05-10 20:53:14 - INFO - Reserva R010: Sofía Bermúdez / Asesoría Ciberseguridad / 1.0h / $117,000
+2026-05-10 20:53:49 - INFO - Reserva R010 confirmada.
+2026-05-10 20:59:22 - INFO - Pago OK R010. Costo: $117,000 | Cambio: $33,000
+2026-05-10 20:59:22 - INFO - Procesamiento de pago finalizado: R010
+2026-05-11 11:49:15 - INFO - Cliente creado: Jonathan Diaz (C001)
+2026-05-11 11:49:43 - INFO - Reserva R001: Jonathan Diaz / Sala Conferencias / 1.0h / $80,000
+2026-05-11 11:49:50 - INFO - Reserva R001 confirmada.
+2026-05-11 11:52:17 - INFO - Cliente creado: Ana García (C901)
+2026-05-11 11:52:17 - INFO - Cliente creado: Carlos López (C902)
+2026-05-11 11:52:17 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:17 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:17 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:17 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:17 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-11 11:52:17 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-11 11:52:17 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:17 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:17 - INFO - Reserva R900 confirmada.
+2026-05-11 11:52:17 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-11 11:52:17 - INFO - Procesamiento de pago finalizado: R900
+2026-05-11 11:52:17 - INFO - Reserva R901 confirmada.
+2026-05-11 11:52:17 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:17 - INFO - Procesamiento de pago finalizado: R901
+2026-05-11 11:52:17 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:17 - WARNING - Reserva R901 cancelada.
+2026-05-11 11:52:17 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-11 11:52:17 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-11 11:52:17 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-11 11:52:29 - INFO - Cliente creado: Ana García (C901)
+2026-05-11 11:52:29 - INFO - Cliente creado: Carlos López (C902)
+2026-05-11 11:52:29 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:29 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:29 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:29 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:29 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-11 11:52:29 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-11 11:52:29 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:29 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:29 - INFO - Reserva R900 confirmada.
+2026-05-11 11:52:29 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-11 11:52:29 - INFO - Procesamiento de pago finalizado: R900
+2026-05-11 11:52:29 - INFO - Reserva R901 confirmada.
+2026-05-11 11:52:29 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:29 - INFO - Procesamiento de pago finalizado: R901
+2026-05-11 11:52:29 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:29 - WARNING - Reserva R901 cancelada.
+2026-05-11 11:52:29 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-11 11:52:29 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-11 11:52:29 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-11 11:52:32 - INFO - Cliente creado: Ana García (C901)
+2026-05-11 11:52:32 - INFO - Cliente creado: Carlos López (C902)
+2026-05-11 11:52:32 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:32 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:32 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:32 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:32 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-11 11:52:32 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-11 11:52:32 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:32 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:32 - INFO - Reserva R900 confirmada.
+2026-05-11 11:52:32 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-11 11:52:32 - INFO - Procesamiento de pago finalizado: R900
+2026-05-11 11:52:32 - INFO - Reserva R901 confirmada.
+2026-05-11 11:52:32 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:32 - INFO - Procesamiento de pago finalizado: R901
+2026-05-11 11:52:32 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:32 - WARNING - Reserva R901 cancelada.
+2026-05-11 11:52:32 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-11 11:52:32 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-11 11:52:32 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-11 11:52:48 - INFO - Cliente creado: Ana García (C901)
+2026-05-11 11:52:48 - INFO - Cliente creado: Carlos López (C902)
+2026-05-11 11:52:48 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:48 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 11:52:48 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:48 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 11:52:48 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-11 11:52:48 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-11 11:52:48 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:48 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 11:52:48 - INFO - Reserva R900 confirmada.
+2026-05-11 11:52:48 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-11 11:52:48 - INFO - Procesamiento de pago finalizado: R900
+2026-05-11 11:52:48 - INFO - Reserva R901 confirmada.
+2026-05-11 11:52:48 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:48 - INFO - Procesamiento de pago finalizado: R901
+2026-05-11 11:52:48 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 11:52:48 - WARNING - Reserva R901 cancelada.
+2026-05-11 11:52:48 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-11 11:52:48 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-11 11:52:48 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-11 12:38:01 - INFO - Cliente creado: Ana García (C901)
+2026-05-11 12:38:01 - INFO - Cliente creado: Carlos López (C902)
+2026-05-11 12:38:01 - ERROR - Error al crear cliente Pedro Sin-Arroba: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 12:38:01 - ERROR - Simulación OP3: Email inválido: 'correosinArroba.com'. Debe contener '@' y '.'
+2026-05-11 12:38:01 - ERROR - Error al crear cliente Laura Corta: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 12:38:01 - ERROR - Simulación OP4: Teléfono inválido: '1234'. Mínimo 7 dígitos.
+2026-05-11 12:38:01 - INFO - Reserva R900: Ana García / Sala Innovación / 3h / $150,000
+2026-05-11 12:38:01 - INFO - Reserva R901: Carlos López / Laptop HP ProBook / 10h / $215,000
+2026-05-11 12:38:01 - ERROR - Error reserva R902: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 12:38:01 - ERROR - Simulación OP7: Máximo 8h para asesoría. Solicitado: 15h
+2026-05-11 12:38:01 - INFO - Reserva R900 confirmada.
+2026-05-11 12:38:01 - INFO - Pago OK R900. Costo: $178,500 | Cambio: $121,500
+2026-05-11 12:38:01 - INFO - Procesamiento de pago finalizado: R900
+2026-05-11 12:38:01 - INFO - Reserva R901 confirmada.
+2026-05-11 12:38:01 - ERROR - Error pago R901: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 12:38:01 - INFO - Procesamiento de pago finalizado: R901
+2026-05-11 12:38:01 - ERROR - Simulación OP10: Fallo en el pago: Monto insuficiente. Requerido: $215,000, Recibido: $5,000
+2026-05-11 12:38:01 - WARNING - Reserva R901 cancelada.
+2026-05-11 12:38:01 - ERROR - Error cancelar R900: No se puede cancelar una reserva completada.
+2026-05-11 12:38:01 - ERROR - Simulación OP12: No se puede cancelar una reserva completada.
+2026-05-11 12:38:01 - INFO - Simulación de 12 operaciones ejecutada correctamente.
+2026-05-11 12:39:29 - WARNING - Cliente desactivado: Ana García
